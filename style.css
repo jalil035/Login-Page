@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+.design{
+    width: 350px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.88);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 40px;
+    padding: 30px;
+}
+.design h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.design .imput-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.imput-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 50px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 40px 20px 20px;
+}
+
+.imput-box p{
+    text-align: center;
+}
+
+.imput-box input::placeholder{
+    color: white;
+    text-align: center;
+}
+
+.imput-box i{
+    position: absolute;
+    right: 20px;
+    top: 70%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: yellow;
+}
+
+.design .remamber-forgate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remamber-forgate label input{
+    accent-color: white;
+    margin: 3px;
+}
+
+.remamber-forgate a{
+    color: white;
+    text-decoration: none;
+}
+
+.remamber-forgate a:hover{
+    text-decoration: underline;
+}
+
+.design .btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin: 30px 0;
+    backdrop-filter: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.75);
+    cursor: pointer;
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.design .register-link{
+    font-size: 15px;
+    text-align: center;
+}
+
+.register-link p a{
+    color: white;
+    text-decoration: none;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
